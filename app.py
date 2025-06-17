@@ -152,7 +152,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # TMDB API configuration - Try to get from environment variable first
-TMDB_API_KEY = os.getenv("TMDB_API_KEY", "f0930e240f95119977b59e75dfee82da")
+TMDB_API_KEY = os.getenv("TMDB_API_KEY", "ADD_YOUR_API_KEY")
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 
